@@ -204,3 +204,133 @@
       bottom: 40px;
     }
   }
+
+  .card4{
+    width: 30%;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+    // border: 1px solid red;
+  }
+
+  .card4>div:nth-child(odd){
+    // border: 1px solid red;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .card4>div:nth-child(even){
+    // border: 1px solid red;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .card4>div:nth-child(1){
+    background: #addcf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(2){
+    background: #6699CC	;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(3){
+    background: #CC99CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(4){
+    background: #FFCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(5){
+    background: #CC99CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(6){
+    background: #addcf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .card4>div:nth-child(7){
+    background: #6699CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .card4>div:nth-child(8){
+    background: #CC99CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(9){
+    background: #FFCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(10){
+    background: #CC99CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(11){
+    background: #addcf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4>div:nth-child(12){
+    background: #6699CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .card4-title{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 50px;
+    font-weight:bold;
+    color: #337ab7;
+  }
