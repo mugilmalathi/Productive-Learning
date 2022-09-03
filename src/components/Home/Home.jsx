@@ -82,10 +82,7 @@ const Home = () => {
         <div></div>
         <div><BsBootstrapFill /></div>
       </div>
-
-
-
-      
+  
     </div>
   );
 };
